@@ -1,14 +1,14 @@
 {
-  "name": "fish-touching-bot",
+  "name": "wechaty-puppet-padlocal-demo",
   "version": "1.0.0",
-  "description": "Wechat robot based on wechaty-puppet-padlocal protocol",
+  "description": "WeChat robot Demo based on wechaty-puppet-padlocal.",
   "scripts": {
     "dev": "nodemon --ext js,ts --exec \"npm run eslint && ts-node src/index.ts\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "eslint": "eslint src --ext .ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Devo Zou",
   "license": "ISC",
   "devDependencies": {
     "@tsconfig/node14": "^1.0.1",
