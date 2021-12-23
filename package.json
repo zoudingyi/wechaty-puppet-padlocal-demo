@@ -1,0 +1,30 @@
+{
+  "name": "fish-touching-bot",
+  "version": "1.0.0",
+  "description": "Wechat robot based on wechaty-puppet-padlocal protocol",
+  "scripts": {
+    "dev": "nodemon --ext js,ts --exec \"npm run eslint && ts-node src/index.ts\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint src --ext .ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.8.0",
+    "@typescript-eslint/parser": "^5.8.0",
+    "eslint": "^8.5.0",
+    "eslint-config-alloy": "^4.4.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "wechaty": "^0.60.1",
+    "wechaty-puppet-padlocal": "^0.4.2",
+    "wechaty-puppet-wechat": "^1.10.5"
+  }
+}
